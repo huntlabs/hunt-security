@@ -5,8 +5,5 @@
     "authors": [
         "zhangxueping"
     ],
-    "license": "Apache-2.0",
-    "dependencies":{
-        "boringssl": {"path": "../boringssl"}
-    }
+    "license": "Apache-2.0"
 }
