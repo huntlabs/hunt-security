@@ -275,7 +275,7 @@ class DerValue {
     // Get an ASN.1/DER encoded datum from a buffer w/ additional
     // arg to control whether DER checks are enforced.
     this(byte[] buf, bool allowBER) {
-        implementationMissing();
+        implementationMissing(false);
         // data = init(true, new ByteArrayInputStream(buf), allowBER);
     }
 

@@ -358,25 +358,26 @@ class AlgorithmId : DerEncoder {
         DerInputStream          inputStream; //  = val.toDerInputStream();
         // inputStream = new DerInputStream(val.toByteArray);
 
-        implementationMissing();
+        implementationMissing(false);
 
-        algid = new ObjectIdentifier(inputStream); // inputStream.getOID();
-        if (inputStream.available() == 0) {
-            params = null;
-        } else {
-            params = inputStream.getDerValue();
-            if (params.tag == DerValue.tag_Null) {
-                if (params.length() != 0) {
-                    throw new IOException("invalid NULL");
-                }
-                params = null;
-            }
-            if (inputStream.available() != 0) {
-                throw new IOException("Invalid AlgorithmIdentifier: extra data");
-            }
-        }
+        // algid = new ObjectIdentifier(inputStream); // inputStream.getOID();
+        // if (inputStream.available() == 0) {
+        //     params = null;
+        // } else {
+        //     params = inputStream.getDerValue();
+        //     if (params.tag == DerValue.tag_Null) {
+        //         if (params.length() != 0) {
+        //             throw new IOException("invalid NULL");
+        //         }
+        //         params = null;
+        //     }
+        //     if (inputStream.available() != 0) {
+        //         throw new IOException("Invalid AlgorithmIdentifier: extra data");
+        //     }
+        // }
 
-        return new AlgorithmId(algid, params);
+        // return new AlgorithmId(algid, params);
+        return null;
     }
 
     /**

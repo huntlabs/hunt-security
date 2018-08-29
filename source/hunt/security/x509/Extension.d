@@ -54,24 +54,24 @@ class Extension : CertExtension {
      */
     this(DerValue derVal) {
 
-        implementationMissing();
+        implementationMissing(false);
         DerInputStream stream; // = derVal.toDerInputStream();
 
         // Object identifier
         extensionId = new ObjectIdentifier(stream); // stream.getOID();
 
         // If the criticality flag was false, it will not have been encoded.
-        DerValue val = stream.getDerValue();
-        if (val.tag == DerValue.tag_Boolean) {
-            critical = val.getBoolean();
+        // DerValue val = stream.getDerValue();
+        // if (val.tag == DerValue.tag_Boolean) {
+        //     critical = val.getBoolean();
 
-            // Extension value (DER encoded)
-            val = stream.getDerValue();
-            extensionValue = val.getOctetString();
-        } else {
-            critical = false;
-            extensionValue = val.getOctetString();
-        }
+        //     // Extension value (DER encoded)
+        //     val = stream.getDerValue();
+        //     extensionValue = val.getOctetString();
+        // } else {
+        //     critical = false;
+        //     extensionValue = val.getOctetString();
+        // }
     }
 
     /**
