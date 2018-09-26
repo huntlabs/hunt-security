@@ -9,7 +9,7 @@ import hunt.security.util.DerOutputStream;
 import hunt.container;
 
 import hunt.util.exception;
-import hunt.util.string;
+import hunt.string;
 
 import std.conv;
 

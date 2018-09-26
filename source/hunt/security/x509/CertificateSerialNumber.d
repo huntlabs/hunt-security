@@ -11,7 +11,7 @@ import hunt.security.util.DerOutputStream;
 
 import hunt.io.common;
 import hunt.util.exception;
-import hunt.util.string;
+import hunt.string;
 
 /**
  * This class defines the SerialNumber attribute for the Certificate.

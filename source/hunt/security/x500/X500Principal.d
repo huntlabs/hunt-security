@@ -5,7 +5,7 @@ import hunt.security.Principal;
 
 import hunt.container;
 import hunt.util.exception;
-import hunt.util.string;
+import hunt.string;
 
 import std.array;
 

@@ -15,7 +15,7 @@ import hunt.security.util.ObjectIdentifier;
 
 import hunt.util.exception;
 import hunt.util.Comparator;
-import hunt.util.string;
+import hunt.string;
 
 import hunt.container;
 

@@ -4,7 +4,7 @@ import hunt.security.Permission;
 import hunt.container;
 
 import hunt.util.exception;
-import hunt.util.string;
+import hunt.string;
 
 /**
  * Abstract class representing a collection of Permission objects.

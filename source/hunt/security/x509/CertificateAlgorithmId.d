@@ -8,7 +8,7 @@ import hunt.security.util.DerInputStream;
 import hunt.security.util.DerOutputStream;
 
 import hunt.util.exception;
-import hunt.util.string;
+import hunt.string;
 
 import hunt.io.common;
 import hunt.container;

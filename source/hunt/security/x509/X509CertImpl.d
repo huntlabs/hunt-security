@@ -28,7 +28,7 @@ import hunt.security.util.ObjectIdentifier;
 import hunt.container;
 import hunt.io;
 import hunt.util.exception;
-import hunt.util.string;
+import hunt.string;
 
 import std.conv;
 import std.datetime;

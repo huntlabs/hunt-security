@@ -6,7 +6,7 @@ import hunt.security.PermissionCollection;
 import hunt.container;
 
 import hunt.util.exception;
-import hunt.util.string;
+import hunt.string;
 
 import std.algorithm;
 

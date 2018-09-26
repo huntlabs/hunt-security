@@ -13,7 +13,7 @@ import hunt.container.Enumeration;
 import hunt.io.common;
 
 import hunt.util.exception;
-import hunt.util.string;
+import hunt.string;
 
 /**
  * This class defines the X509Key attribute for the Certificate.
