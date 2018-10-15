@@ -28,7 +28,7 @@ import hunt.container;
 
 import hunt.io.common;
 
-import hunt.util.common;
+import hunt.lang.common;
 import hunt.util.exception;
 import hunt.string;
 
