@@ -6,7 +6,7 @@ import hunt.security.cert.CRLReason;
 import hunt.security.x509.X509Extension;
 import hunt.security.util.DerValue;
 
-import hunt.util.exception;
+import hunt.lang.exception;
 
 import hunt.container.Set;
 

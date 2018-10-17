@@ -5,7 +5,7 @@ import hunt.security.util.DerOutputStream;
 // import hunt.security.util.DerInputStream;
 
 import hunt.io.common;
-import hunt.util.exception;
+import hunt.lang.exception;
 
 import std.conv;
 import std.bigint;

@@ -7,7 +7,7 @@ import hunt.security.cert.CRL;
 import hunt.container;
 import hunt.io.common;
 
-import hunt.util.exception;
+import hunt.lang.exception;
 
 /**
  * This class defines the <i>Service Provider Interface</i> (<b>SPI</b>)

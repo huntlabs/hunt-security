@@ -27,7 +27,7 @@ import hunt.security.util.ObjectIdentifier;
 
 import hunt.container;
 import hunt.io;
-import hunt.util.exception;
+import hunt.lang.exception;
 import hunt.string;
 
 import std.conv;

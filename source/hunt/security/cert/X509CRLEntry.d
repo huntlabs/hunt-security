@@ -5,7 +5,7 @@ import hunt.security.cert.X509Extension;
 import hunt.security.x500.X500Principal;
 import hunt.security.Principal;
 
-import hunt.util.exception;
+import hunt.lang.exception;
 
 import std.datetime;
 import std.bigint;

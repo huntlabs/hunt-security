@@ -6,7 +6,7 @@ import hunt.security.util.DerValue;
 // import hunt.security.util.ObjectIdentifier;
 
 import hunt.io.common;
-import hunt.util.exception;
+import hunt.lang.exception;
 
 import std.container.array;
 import std.bigint;

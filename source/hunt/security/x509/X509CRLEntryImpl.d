@@ -13,7 +13,7 @@ import hunt.security.util.DerValue;
 import hunt.security.util.DerOutputStream;
 import hunt.security.util.ObjectIdentifier;
 
-import hunt.util.exception;
+import hunt.lang.exception;
 import hunt.util.Comparator;
 import hunt.string;
 

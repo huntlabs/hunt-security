@@ -4,7 +4,7 @@ import hunt.io.ByteArrayInputStream;
 import hunt.io.common;
 
 import hunt.lang.character;
-import hunt.util.exception;
+import hunt.lang.exception;
 
 import std.bigint;
 import std.bitmanip;

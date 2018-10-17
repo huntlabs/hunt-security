@@ -12,7 +12,7 @@ import hunt.security.Provider;
 
 import hunt.container;
 
-import hunt.util.exception;
+import hunt.lang.exception;
 
 import std.datetime;
 import std.bigint;

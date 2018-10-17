@@ -3,7 +3,7 @@ module hunt.security.Permission;
 import hunt.security.Guard;
 import hunt.security.PermissionCollection;
 
-import hunt.util.exception;
+import hunt.lang.exception;
 /**
  * Abstract class for representing access to a system resource.
  * All permissions have a name (whose interpretation depends on the subclass),

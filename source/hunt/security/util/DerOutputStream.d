@@ -5,7 +5,7 @@ import hunt.security.util.DerEncoder;
 import hunt.security.util.DerValue;
 
 import hunt.io.common;
-import hunt.util.exception;
+import hunt.lang.exception;
 
 import std.datetime;
 import std.bitmanip;

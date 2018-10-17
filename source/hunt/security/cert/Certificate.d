@@ -3,7 +3,7 @@ module hunt.security.cert.Certificate;
 import hunt.security.key;
 import hunt.security.Provider;
 
-import hunt.util.exception;
+import hunt.lang.exception;
 
 /**
  * <p>Abstract class for managing a variety of identity certificates.

@@ -5,7 +5,7 @@ import hunt.security.util.DerValue;
 import hunt.security.util.DerOutputStream;
 
 import hunt.security.key;
-import hunt.util.exception;
+import hunt.lang.exception;
 
 import std.format;
 

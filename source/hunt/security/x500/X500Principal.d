@@ -4,7 +4,7 @@ import hunt.security.x509.X500Name;
 import hunt.security.Principal;
 
 import hunt.container;
-import hunt.util.exception;
+import hunt.lang.exception;
 import hunt.string;
 
 import std.array;

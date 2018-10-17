@@ -2,7 +2,7 @@ module hunt.security.util.DerIndefLenConverter;
 
 import hunt.container.ArrayList;
 
-import hunt.util.exception;
+import hunt.lang.exception;
 
 
 /**

@@ -10,7 +10,7 @@ import hunt.security.util.DerInputStream;
 import hunt.security.util.DerOutputStream;
 
 import hunt.io.common;
-import hunt.util.exception;
+import hunt.lang.exception;
 import hunt.string;
 
 /**

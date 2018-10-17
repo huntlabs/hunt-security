@@ -10,7 +10,7 @@ import hunt.security.x509.Extension;
 import hunt.io.common;
 
 import hunt.container;
-import hunt.util.exception;
+import hunt.lang.exception;
 
 /**
  * This class defines the CRL Extensions.

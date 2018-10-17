@@ -9,7 +9,7 @@ import hunt.security.util.DerValue;
 import hunt.container;
 import hunt.io.common;
 
-import hunt.util.exception;
+import hunt.lang.exception;
 import hunt.string;
 
 import std.conv;

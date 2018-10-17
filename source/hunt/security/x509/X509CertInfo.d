@@ -12,7 +12,7 @@ import hunt.security.util.DerOutputStream;
 
 import hunt.container.Enumeration;
 import hunt.io.common;
-import hunt.util.exception;
+import hunt.lang.exception;
 
 // import hunt.security.x509.CertAttrSet;
 // import hunt.security.x509.CertAttrSet;

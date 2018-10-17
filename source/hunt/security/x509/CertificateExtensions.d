@@ -13,7 +13,7 @@ import hunt.security.util.DerOutputStream;
 import hunt.security.util.ObjectIdentifier;
 
 import hunt.container;
-import hunt.util.exception;
+import hunt.lang.exception;
 import hunt.io.common;
 
 /**
