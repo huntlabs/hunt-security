@@ -3,7 +3,7 @@ module hunt.security.util.DerInputBuffer;
 import hunt.io.ByteArrayInputStream;
 import hunt.io.common;
 
-import hunt.lang.character;
+import hunt.lang.Character;
 import hunt.lang.exception;
 
 import std.bigint;
