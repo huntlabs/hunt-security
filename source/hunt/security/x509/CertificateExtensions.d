@@ -316,8 +316,8 @@ class CertificateExtensions : CertAttrSet!(Extension, Extension)  {
             // if (! thisExt.opEquals(otherExt))
             //     return false;
         }
-        return this.getUnparseableExtensions().opEquals(cast(Object)(
-                (cast(CertificateExtensions)other).getUnparseableExtensions()));
+        return this.getUnparseableExtensions().opEquals(
+                (cast(CertificateExtensions)other).getUnparseableExtensions());
     }
 
     /**
