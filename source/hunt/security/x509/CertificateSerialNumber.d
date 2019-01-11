@@ -3,15 +3,15 @@ module hunt.security.x509.CertificateSerialNumber;
 import hunt.security.x509.CertAttrSet;
 import hunt.security.x509.SerialNumber;
 
-import hunt.container.Enumeration;
+import hunt.collection.Enumeration;
 
 import hunt.security.util.DerValue;
 import hunt.security.util.DerInputStream;
 import hunt.security.util.DerOutputStream;
 
-import hunt.io.common;
-import hunt.lang.exception;
-import hunt.string;
+import hunt.io.Common;
+import hunt.Exceptions;
+import hunt.text.Common;
 
 /**
  * This class defines the SerialNumber attribute for the Certificate.

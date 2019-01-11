@@ -1,10 +1,10 @@
 module hunt.security.util.DerInputBuffer;
 
 import hunt.io.ByteArrayInputStream;
-import hunt.io.common;
+import hunt.io.Common;
 
-import hunt.lang.Character;
-import hunt.lang.exception;
+import hunt.Char;
+import hunt.Exceptions;
 
 import std.bigint;
 import std.bitmanip;

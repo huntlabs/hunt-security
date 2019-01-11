@@ -7,8 +7,8 @@ import hunt.security.util.DerInputStream;
 import hunt.security.util.DerOutputStream;
 import hunt.security.util.ObjectIdentifier;
 
-import hunt.io.common;
-import hunt.lang.exception;
+import hunt.io.Common;
+import hunt.Exceptions;
 
 /**
  * Represent a X509 Extension Attribute.

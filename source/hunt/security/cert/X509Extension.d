@@ -1,6 +1,6 @@
 module hunt.security.cert.X509Extension;
 
-import hunt.container.Set;
+import hunt.collection.Set;
 
 /**
  * Interface for an X.509 extension.

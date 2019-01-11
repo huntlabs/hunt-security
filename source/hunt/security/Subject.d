@@ -2,7 +2,7 @@ module hunt.security.Subject;
 
 import hunt.security.Principal;
 
-import hunt.container;
+import hunt.collection;
 
 /**
  * <p> A {@code Subject} represents a grouping of related information

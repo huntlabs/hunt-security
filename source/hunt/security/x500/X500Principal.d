@@ -3,9 +3,9 @@ module hunt.security.x500.X500Principal;
 import hunt.security.x509.X500Name;
 import hunt.security.Principal;
 
-import hunt.container;
-import hunt.lang.exception;
-import hunt.string;
+import hunt.collection;
+import hunt.Exceptions;
+import hunt.text.Common;
 
 import std.array;
 

@@ -3,10 +3,10 @@ module hunt.security.BasicPermission;
 import hunt.security.Permission;
 import hunt.security.PermissionCollection;
 
-import hunt.container;
+import hunt.collection;
 
-import hunt.lang.exception;
-import hunt.string;
+import hunt.Exceptions;
+import hunt.text.Common;
 
 import std.algorithm;
 

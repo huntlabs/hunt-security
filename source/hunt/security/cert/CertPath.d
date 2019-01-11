@@ -2,7 +2,7 @@ module hunt.security.cert.CertPath;
 
 import hunt.security.cert.Certificate;
 
-import hunt.container;
+import hunt.collection;
 
 import std.array;
 import std.conv;

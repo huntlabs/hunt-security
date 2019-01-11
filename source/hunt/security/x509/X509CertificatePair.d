@@ -5,7 +5,7 @@ import hunt.security.cert.X509Certificate;
 import hunt.security.util.Cache;
 import hunt.security.util.DerValue;
 
-import hunt.lang.exception;
+import hunt.Exceptions;
 
 /**
  * This class represents an X.509 Certificate Pair object, which is primarily

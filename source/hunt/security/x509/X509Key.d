@@ -12,7 +12,7 @@ import hunt.security.util.DerOutputStream;
 // import hunt.security.spec.InvalidKeySpecException;
 // import hunt.security.spec.X509EncodedKeySpec;
 
-import hunt.lang.exception;
+import hunt.Exceptions;
 
 import std.bitmanip;
 

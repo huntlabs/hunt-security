@@ -1,6 +1,6 @@
 module hunt.security.cert.Extension;
 
-import hunt.io.common;
+import hunt.io.Common;
 
 /**
  * This interface represents an X.509 extension.

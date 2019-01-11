@@ -12,9 +12,9 @@ import hunt.security.util.DerInputStream;
 import hunt.security.util.DerOutputStream;
 import hunt.security.util.ObjectIdentifier;
 
-import hunt.container;
-import hunt.lang.exception;
-import hunt.io.common;
+import hunt.collection;
+import hunt.Exceptions;
+import hunt.io.Common;
 
 /**
  * This class defines the Extensions attribute for the Certificate.

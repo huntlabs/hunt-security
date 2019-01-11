@@ -1,8 +1,8 @@
 module hunt.security.x509.CertAttrSet;
 
-import hunt.container.Enumeration;
+import hunt.collection.Enumeration;
 
-import hunt.io.common;
+import hunt.io.Common;
 
 /**
  * This interface defines the methods required of a certificate attribute.

@@ -9,11 +9,11 @@ import hunt.security.util.DerValue;
 import hunt.security.util.DerInputStream;
 import hunt.security.util.DerOutputStream;
 
-import hunt.container.Enumeration;
-import hunt.io.common;
+import hunt.collection.Enumeration;
+import hunt.io.Common;
 
-import hunt.lang.exception;
-import hunt.string;
+import hunt.Exceptions;
+import hunt.text.Common;
 
 /**
  * This class defines the X509Key attribute for the Certificate.

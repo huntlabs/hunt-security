@@ -1,10 +1,11 @@
 module hunt.security.PermissionCollection;
 
 import hunt.security.Permission;
-import hunt.container;
+import hunt.collection;
 
-import hunt.lang.exception;
-import hunt.string;
+import hunt.Exceptions;
+import hunt.text.Common;
+import hunt.text.StringBuilder;
 
 /**
  * Abstract class representing a collection of Permission objects.

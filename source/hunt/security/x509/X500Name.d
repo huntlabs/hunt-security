@@ -6,10 +6,10 @@ import hunt.security.Principal;
 import hunt.security.util.DerValue;
 import hunt.security.util.DerOutputStream;
 
-import hunt.container;
+import hunt.collection;
 
-import hunt.lang.exception;
-import hunt.string;
+import hunt.Exceptions;
+import hunt.text.Common;
 
 import std.conv;
 

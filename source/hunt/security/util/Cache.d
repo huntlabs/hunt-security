@@ -1,14 +1,13 @@
 module hunt.security.util.Cache;
 
-import hunt.container;
-
-import hunt.lang.exception;
-import hunt.util.memory;
+import hunt.collection;
+import hunt.Exceptions;
+import hunt.logging;
+import hunt.system.Memory;
 
 import std.conv;
 import std.datetime;
 
-import hunt.logging;
 
 /**
  * Abstract base class and factory for caches. A cache is a key-value mapping.

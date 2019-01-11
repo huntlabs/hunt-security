@@ -3,7 +3,7 @@ module hunt.security.AlgorithmParameters;
 import hunt.security.spec.AlgorithmParameterSpec;
 import hunt.security.Provider;
 
-import hunt.lang.exception;
+import hunt.Exceptions;
 
 import std.array;
 
