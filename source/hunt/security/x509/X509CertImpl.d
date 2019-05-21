@@ -3,7 +3,7 @@ module hunt.security.x509.X509CertImpl;
 import hunt.security.cert.Certificate;
 import hunt.security.cert.X509Certificate;
 
-import hunt.security.key;
+import hunt.security.Key;
 import hunt.security.Principal;
 import hunt.security.Provider;
 

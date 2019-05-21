@@ -1,6 +1,6 @@
 module hunt.security.x509.X509CRLImpl;
 
-import hunt.security.key;
+import hunt.security.Key;
 import hunt.security.Principal;
 import hunt.security.Provider;
 

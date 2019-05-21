@@ -1,5 +1,6 @@
 module hunt.security.SecureRandom;
 
+import hunt.Exceptions;
 
 
 /**
@@ -382,18 +383,19 @@ class SecureRandom  { // : java.util.Random
     //     return (algorithm !is null) ? algorithm : "unknown";
     // }
 
-    // /**
-    //  * Reseeds this random object. The given seed supplements, rather than
-    //  * replaces, the existing seed. Thus, repeated calls are guaranteed
-    //  * never to reduce randomness.
-    //  *
-    //  * @param seed the seed.
-    //  *
-    //  * @see #getSeed
-    //  */
-    // synchronized void setSeed(byte[] seed) {
-    //     secureRandomSpi.engineSetSeed(seed);
-    // }
+    /**
+     * Reseeds this random object. The given seed supplements, rather than
+     * replaces, the existing seed. Thus, repeated calls are guaranteed
+     * never to reduce randomness.
+     *
+     * @param seed the seed.
+     *
+     * @see #getSeed
+     */
+    void setSeed(byte[] seed) {
+        // secureRandomSpi.engineSetSeed(seed);
+        implementationMissing(false);
+    }
 
     // /**
     //  * Reseeds this random object, using the eight bytes contained
@@ -421,20 +423,21 @@ class SecureRandom  { // : java.util.Random
     //     }
     // }
 
-    // /**
-    //  * Generates a user-specified number of random bytes.
-    //  *
-    //  * <p> If a call to {@code setSeed} had not occurred previously,
-    //  * the first call to this method forces this SecureRandom object
-    //  * to seed itself.  This self-seeding will not occur if
-    //  * {@code setSeed} was previously called.
-    //  *
-    //  * @param bytes the array to be filled in with random bytes.
-    //  */
+    /**
+     * Generates a user-specified number of random bytes.
+     *
+     * <p> If a call to {@code setSeed} had not occurred previously,
+     * the first call to this method forces this SecureRandom object
+     * to seed itself.  This self-seeding will not occur if
+     * {@code setSeed} was previously called.
+     *
+     * @param bytes the array to be filled in with random bytes.
+     */
     // override
-    // void nextBytes(byte[] bytes) {
-    //     secureRandomSpi.engineNextBytes(bytes);
-    // }
+    void nextBytes(byte[] bytes) {
+        // secureRandomSpi.engineNextBytes(bytes);
+        implementationMissing(false);
+    }
 
     // /**
     //  * Generates an integer containing the user-specified number of

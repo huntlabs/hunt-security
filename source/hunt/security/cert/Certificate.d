@@ -1,6 +1,6 @@
 module hunt.security.cert.Certificate;
 
-import hunt.security.key;
+import hunt.security.Key;
 import hunt.security.Provider;
 
 import hunt.Exceptions;

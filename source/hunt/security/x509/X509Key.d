@@ -2,7 +2,7 @@ module hunt.security.x509.X509Key;
 
 import hunt.security.x509.AlgorithmId;
 
-import hunt.security.key;
+import hunt.security.Key;
 import hunt.security.Provider;
 
 import hunt.security.util.DerValue;

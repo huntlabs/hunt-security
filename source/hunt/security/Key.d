@@ -1,4 +1,4 @@
-module hunt.security.key;
+module hunt.security.Key;
 
 /**
  * The Key interface is the top-level interface for all keys. It

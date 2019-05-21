@@ -3,7 +3,7 @@ module hunt.security.x509.CertificateX509Key;
 import hunt.security.x509.CertAttrSet;
 import hunt.security.x509.X509Key;
 
-import hunt.security.key;
+import hunt.security.Key;
 
 import hunt.security.util.DerValue;
 import hunt.security.util.DerInputStream;

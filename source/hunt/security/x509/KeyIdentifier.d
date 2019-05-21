@@ -4,7 +4,7 @@ import hunt.security.x509.AlgorithmId;
 import hunt.security.util.DerValue;
 import hunt.security.util.DerOutputStream;
 
-import hunt.security.key;
+import hunt.security.Key;
 import hunt.Exceptions;
 
 import std.format;
