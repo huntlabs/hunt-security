@@ -1,5 +1,6 @@
 module hunt.security.Principal;
 
+import hunt.Object;
 import hunt.security.Subject;
 
 /**
@@ -21,22 +22,21 @@ interface Principal {
      * @return true if the principal passed in is the same as that
      * encapsulated by this principal, and false otherwise.
      */
-    bool opEquals(Object another);
+    // bool opEquals(Object another);
 
     /**
      * Returns a string representation of this principal.
      *
      * @return a string representation of this principal.
      */
-    string toString();
+    // string toString();
 
     /**
      * Returns a hashcode for this principal.
      *
      * @return a hashcode for this principal.
      */
-    // int toHash();
-    size_t toHash() @trusted nothrow;
+    // size_t toHash() @trusted nothrow;
 
     /**
      * Returns the name of this principal.
