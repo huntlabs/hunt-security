@@ -1,9 +1,11 @@
 {
     "name": "hunt-security",
+    "targetType": "sourceLibrary",
     "description": "A security library for hunt.",
     "copyright": "Copyright (C) 2018-2019, HuntLabs",
-    "homepage": "https://www.huntlabs.net/",
+    "homepage": "https://www.huntlabs.net",
     "license": "Apache-2.0",
+    "versions": ["WITH_HUNT_SECURITY"],
     "dependencies":{
         "hunt" : "~>1.3.0-rc.1"
     }
