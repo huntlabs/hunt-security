@@ -9,7 +9,7 @@ import hunt.security.util.DerOutputStream;
 
 import hunt.collection.Enumeration;
 
-import hunt.io.Common;
+import hunt.stream.Common;
 import hunt.Exceptions;
 import hunt.text.Common;
 

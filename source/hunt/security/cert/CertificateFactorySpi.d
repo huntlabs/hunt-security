@@ -6,7 +6,7 @@ import hunt.security.cert.CRL;
 
 import hunt.collection;
 import hunt.Exceptions;
-import hunt.io.Common;
+import hunt.stream.Common;
 
 
 /**

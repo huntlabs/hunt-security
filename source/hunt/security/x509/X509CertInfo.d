@@ -11,7 +11,7 @@ import hunt.security.x509.CertificateX509Key;
 import hunt.security.util.DerOutputStream;
 
 import hunt.collection.Enumeration;
-import hunt.io.Common;
+import hunt.stream.Common;
 import hunt.Exceptions;
 
 // import hunt.security.x509.CertAttrSet;

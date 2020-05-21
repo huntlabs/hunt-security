@@ -4,6 +4,7 @@ import hunt.security.cert.X509Certificate;
 
 import hunt.security.util.Cache;
 import hunt.security.util.DerValue;
+import hunt.security.util.ReferenceQueue;
 
 import hunt.Exceptions;
 

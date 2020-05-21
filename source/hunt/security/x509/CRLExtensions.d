@@ -7,7 +7,7 @@ import hunt.security.util.DerValue;
 import hunt.security.x509.CertAttrSet;
 import hunt.security.x509.Extension;
 
-import hunt.io.Common;
+import hunt.stream.Common;
 
 import hunt.collection;
 import hunt.Exceptions;

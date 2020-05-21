@@ -1,6 +1,6 @@
 module hunt.security.Certificate;
 
-import hunt.io;
+import hunt.stream;
 
 /**
  * <p>This is an interface of abstract methods for managing a

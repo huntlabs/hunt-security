@@ -7,7 +7,7 @@ import hunt.security.util.DerOutputStream;
 import hunt.security.util.DerValue;
 
 import hunt.collection;
-import hunt.io.Common;
+import hunt.stream.Common;
 
 import hunt.Exceptions;
 import hunt.text.Common;

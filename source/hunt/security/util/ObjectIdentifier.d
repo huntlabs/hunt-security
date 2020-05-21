@@ -8,6 +8,7 @@ import hunt.security.util.DerValue;
 import hunt.Exceptions;
 import hunt.text.Common;
 import hunt.collection;
+import hunt.util.StringBuilder;
 
 import std.conv;
 import std.string;
@@ -411,7 +412,7 @@ final class ObjectIdentifier
         string s = stringForm;
         if (s is null) {
             size_t length = encoding.length;
-            StringBuffer sb = new StringBuffer(length * 4);
+            StringBuilder sb = new StringBuilder(length * 4);
 
             size_t fromPos = 0;
             for (size_t i = 0; i < length; i++) {

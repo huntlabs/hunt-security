@@ -15,7 +15,7 @@ import hunt.security.cert.X509Certificate;
 import hunt.security.util.Cache;
 
 import hunt.collection;
-import hunt.io.Common;
+import hunt.stream.Common;
 
 import hunt.Exceptions;
 

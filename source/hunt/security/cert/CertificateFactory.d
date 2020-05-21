@@ -8,7 +8,7 @@ import hunt.security.cert.CRL;
 import hunt.security.Provider;
 
 import hunt.collection;
-import hunt.io.Common;
+import hunt.stream.Common;
 
 import hunt.Exceptions;
 

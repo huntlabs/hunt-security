@@ -1,5 +1,7 @@
 module hunt.security.util.Cache;
 
+import hunt.security.util.ReferenceQueue;
+
 import hunt.collection;
 import hunt.Exceptions;
 import hunt.logging;

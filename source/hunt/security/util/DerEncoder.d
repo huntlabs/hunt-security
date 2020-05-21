@@ -1,6 +1,6 @@
 module hunt.security.util.DerEncoder;
 
-import hunt.io.Common;
+import hunt.stream.Common;
 
 /**
  * Interface to an object that knows how to write its own DER

@@ -1,10 +1,10 @@
 module hunt.security.util.DerOutputStream;
 
-import hunt.io.ByteArrayOutputStream;
+import hunt.stream.ByteArrayOutputStream;
 import hunt.security.util.DerEncoder;
 import hunt.security.util.DerValue;
 
-import hunt.io.Common;
+import hunt.stream.Common;
 import hunt.Exceptions;
 
 import std.datetime;

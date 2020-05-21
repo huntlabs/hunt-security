@@ -14,7 +14,7 @@ import hunt.security.util.ObjectIdentifier;
 
 import hunt.collection;
 import hunt.Exceptions;
-import hunt.io.Common;
+import hunt.stream.Common;
 
 /**
  * This class defines the Extensions attribute for the Certificate.

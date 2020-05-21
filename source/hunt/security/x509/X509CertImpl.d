@@ -26,10 +26,10 @@ import hunt.security.util.DerValue;
 import hunt.security.util.ObjectIdentifier;
 
 import hunt.collection;
-import hunt.io;
+import hunt.stream;
 import hunt.Exceptions;
 import hunt.text.Common;
-import hunt.text.StringBuilder;
+import hunt.util.StringBuilder;
 
 import std.conv;
 import std.datetime;

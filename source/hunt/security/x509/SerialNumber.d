@@ -4,7 +4,7 @@ import hunt.security.util.DerValue;
 import hunt.security.util.DerInputStream;
 import hunt.security.util.DerOutputStream;
 
-import hunt.io.Common;
+import hunt.stream.Common;
 import hunt.Exceptions;
 
 import std.bigint;

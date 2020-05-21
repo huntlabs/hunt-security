@@ -9,11 +9,11 @@ import hunt.security.util.DerValue;
 import hunt.security.util.ObjectIdentifier;
 
 import hunt.collection;
-import hunt.io.Common;
+import hunt.stream.Common;
 
 import hunt.Exceptions;
 import hunt.text.Common;
-import hunt.text.StringBuilder;
+import hunt.util.StringBuilder;
 
 import std.string;
 

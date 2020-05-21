@@ -10,7 +10,7 @@ import hunt.security.util.DerOutputStream;
 import hunt.Exceptions;
 import hunt.text.Common;
 
-import hunt.io.Common;
+import hunt.stream.Common;
 import hunt.collection;
 
 import std.conv;

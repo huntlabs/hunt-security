@@ -26,9 +26,10 @@ import hunt.security.util.ObjectIdentifier;
 
 import hunt.collection;
 import hunt.Exceptions;
-import hunt.io.Common;
+import hunt.stream.Common;
 import hunt.text.Common;
 import hunt.util.Common;
+import hunt.util.StringBuilder;
 
 import std.algorithm;
 import std.bigint;
@@ -570,7 +571,7 @@ class X509CRLImpl : X509CRL , DerEncoder {
      * @return value of this CRL in a printable form.
      */
     override string toString() {
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         sb.append("X.509 CRL v" ~ (_version+1).to!string() ~ "\n");
         if (sigAlgId !is null)
             sb.append("Signature Algorithm: " ~ sigAlgId.toString() ~

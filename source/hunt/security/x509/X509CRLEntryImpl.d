@@ -16,7 +16,7 @@ import hunt.security.util.ObjectIdentifier;
 import hunt.Exceptions;
 import hunt.util.Comparator;
 import hunt.text.Common;
-import hunt.text.StringBuilder;
+import hunt.util.StringBuilder;
 
 import hunt.collection;
 

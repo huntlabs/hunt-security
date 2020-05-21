@@ -5,7 +5,7 @@ import hunt.collection;
 
 import hunt.Exceptions;
 import hunt.text.Common;
-import hunt.text.StringBuilder;
+import hunt.util.StringBuilder;
 
 /**
  * Abstract class representing a collection of Permission objects.

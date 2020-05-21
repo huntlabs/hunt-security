@@ -5,7 +5,7 @@ import hunt.security.util.DerInputBuffer;
 import hunt.security.util.DerValue;
 // import hunt.security.util.ObjectIdentifier;
 
-import hunt.io.Common;
+import hunt.stream.Common;
 import hunt.Exceptions;
 
 import std.container.array;
