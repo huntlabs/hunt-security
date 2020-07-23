@@ -1,6 +1,6 @@
 module hunt.security.Principal;
 
-import hunt.Object;
+// import hunt.Object;
 import hunt.security.Subject;
 
 /**
